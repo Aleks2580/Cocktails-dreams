@@ -1,0 +1,52 @@
+.formContainer {
+  max-width:320px;
+  /* box-shadow : 4px 8px 16px #d7d7d7; */
+  margin:0 auto;
+  padding:20px;
+  border-radius:0px 0px 4px 4px;
+}
+
+#mainContainer {
+  width: 100vw;;
+}
+input {
+  box-shadow:none !important;
+  outline:none;
+}
+#btnHolder {
+  margin:0px -20px -20px -20px;
+}
+#btnHolder .btn {
+  border-radius:0px 0px 4px 4px !important;
+  height:60px;
+}
+@media screen and (max-width:766px){
+  .centerOnMobile {
+    margin : 20vh auto
+  }
+}
+@media screen and (min-width:767px){
+  #mainBgn {
+    background : url('../images/singup.jpg') no-repeat;
+    background-size:cover;
+    background-position:center;
+    min-height:100vh;
+    width:105%;
+  }
+  #mainContainer {
+    /* box-shadow : 2px 4px 12px rgba(0,0,0,0.4); */
+    height:100vh;
+    /* margin: 6.5vh 20px; */
+  }
+}
+
+.btn-primary {
+  background-color: rgba(0, 0, 0, 0.882);
+  border-color: black;
+}
+
+
+.sing-up {
+  color: black;
+  
+}

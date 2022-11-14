@@ -1,0 +1,161 @@
+.search-sec{
+  padding: 2rem;
+  
+}
+.search-slt{
+  display: block;
+  width: 100%;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  height: calc(3rem + 2px) !important;
+  border-radius:0;
+}
+.wrn-btn{
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  height: calc(3rem + 2px) !important;
+  border-radius:0;
+}
+
+.searchBackground {
+
+  background-image: 
+  url("../images/search5.jpg");
+background-size: cover;
+background-position: center;
+min-height: 100vh;
+width:100%;
+
+}
+
+     /* background : url('../images/search.jpg') no-repeat;
+    background-size : cover;
+    background-position: center;
+    height:100vh;
+    width:100%;
+  
+} */
+
+ .container {
+  margin-top: 16rem;
+  margin-right: 5rem;
+} 
+
+
+#spinner {
+  z-index: 1000;
+  visibility: hidden;
+  position: absolute;
+  border: 3px solid rgba(212, 202, 202, 0.386);
+  border-radius: 50%;
+  border-top-color: rgb(2, 2, 2);
+  top: 50vh;
+  left: 50vw;
+  width: 100px;
+  height: 100px;
+  margin: -60px 0 0 -60px;
+  -webkit-animation: spin 1s linear infinite;
+  -moz-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+.cardsAll {
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-row-gap: 40px;
+  justify-items: center;
+  /* flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; */
+
+}
+ .card {
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+  border: 0.5px solid whitesmoke;
+  /* border: 1px solid #dd2476; */
+  color: rgba(250, 250, 250, 0.8);
+  margin-bottom: 2rem;
+ }
+
+ .card-body {
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ }
+
+ .card-title {
+  color: rgb(240, 240, 240)
+ }
+
+ .card-text {
+  color: white;
+  text-align: center;
+ }
+
+ .btn-primary{
+  background-color: azure;
+  color: black;
+ }
+
+
+.wrn-btn {
+  width: 120px;
+  border-top: 0.5px solid whitesmoke;
+  border-right:0.5px solid whitesmoke;
+  border-bottom: 0.5px solid whitesmoke;
+  
+}
+
+.searchForm {
+  margin-left: 9rem;
+}
+
+#video-link {
+  display: none;
+}
+
+#recipe {
+  display:none;
+}
+#glass {
+  display: none;
+}
+
+#measure {
+  display:none
+}

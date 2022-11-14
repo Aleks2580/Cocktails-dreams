@@ -1,0 +1,86 @@
+.recipiesBackground {
+
+  background-image: 
+  url("../images/recipies5.jpg");
+background-size: cover;
+background-position: center;
+min-height: 100vh;
+width:100%;
+
+}
+
+.cardsAll {
+  margin-left: 60px;
+  margin-right: 60px;
+  /* margin-top: 60px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-row-gap: 40px;
+  justify-items: center;
+  
+
+}
+ .card {
+  margin-top: 180px;
+  width: 320px;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+  border: 0.5px solid whitesmoke;
+  /* border: 1px solid #dd2476; */
+  color: rgba(250, 250, 250, 0.8);
+  margin-bottom: 2rem;
+ }
+
+ .card-body {
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ }
+
+ .card-title {
+  color: rgb(240, 240, 240)
+ }
+
+ .card-text {
+  color: white;
+  text-align: center;
+ }
+
+ .btn-primary{
+  background-color: azure;
+  color: black;
+ }
+
+
+.wrn-btn {
+  width: 120px;
+  border-top: 0.5px solid whitesmoke;
+  border-right:0.5px solid whitesmoke;
+  border-bottom: 0.5px solid whitesmoke;
+  
+}
+
+.searchForm {
+  margin-left: 9rem;
+}
+
+#video-link {
+  text-align: center;
+  /* display: none; */
+}
+
+#recipe {
+  text-align: center;
+  /* display:none; */
+}
+#glass {
+  text-align: center;
+  /* display: none; */
+}
+
+#measure {
+  text-align: center;
+  /* display:none */
+}
