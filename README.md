@@ -19,19 +19,18 @@ To get started with Cocktails & Dreams, simply register as a new user or log in 
 3. Install the dependencies by running: npm install
 4. Create a .env file in the project root directory with the following contents:
 
-'DATABASE_URL=postgres://<userName>:<Password>@localhost:5432/<database_name>'
+- DATABASE_URL=postgres://userName:password@localhost:5432/database_name
 
-SESSION_SECRET=<your_session_secret_key>
+- SESSION_SECRET=<your_session_secret_key>
 
-Replace <userName>, <Password>, and <database_name> with your PostgreSQL credentials and database name. Choose a random string for <your_session_secret_key>.
+Replace username, password, and database_name with your PostgreSQL credentials and database name. Choose a random string for <your_session_secret_key>.
 
 5.Set up the PostgreSQL database by running the following commands:
 
-npx sequelize-cli db:create
+ - npx sequelize db:create
 
-npx sequelize-cli db:migrate
+- npx sequelize db:migrate
 
-npx sequelize-cli db:seed:all
 
 This will create the database, apply the migrations, and seed the database with initial data.
 
@@ -42,6 +41,12 @@ The application will be available at http://localhost:3000/.
 That's it! You should now be able to run the application locally.
 
 ### Screenshots
+#### Sign up Page
+![signup](https://user-images.githubusercontent.com/90598699/235955093-5e9bd718-ee8e-4cda-9ede-08df3623ac10.png)
+
+#### Login Page
+![login](https://user-images.githubusercontent.com/90598699/235955129-983187d9-96c4-4c47-b577-ed188f983757.png)
+
 #### Home Page
 ![Screenshot 2022-11-17 at 5 03 52 pm](https://user-images.githubusercontent.com/90598699/202408314-80968c92-25d5-48b2-b123-627627f5f5b9.png)
 
