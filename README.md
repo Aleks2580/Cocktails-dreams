@@ -12,6 +12,35 @@ Cocktails & Dreams is a sophisticated and user-friendly cocktail recipe finder a
 ## Getting Started
 To get started with Cocktails & Dreams, simply register as a new user or log in if you already have an account. Once you're logged in, you can browse the popular page to see the most popular cocktails of the year. From there, you can use the search functionality to find cocktails by name, keyword, or letter.
 
+#### To set up the project locally, follow these steps:
+
+1. Clone the repository from Github by running the following command: git clone https://github.com/Aleks2580/Cocktails-dreams.git
+2. Navigate to the project directory by running: cd cocktails-dreams
+3. Install the dependencies by running: npm install
+4. Create a .env file in the project root directory with the following contents:
+
+'DATABASE_URL=postgres://<userName>:<Password>@localhost:5432/<database_name>'
+
+SESSION_SECRET=<your_session_secret_key>
+
+Replace <userName>, <Password>, and <database_name> with your PostgreSQL credentials and database name. Choose a random string for <your_session_secret_key>.
+
+5.Set up the PostgreSQL database by running the following commands:
+
+npx sequelize-cli db:create
+
+npx sequelize-cli db:migrate
+
+npx sequelize-cli db:seed:all
+
+This will create the database, apply the migrations, and seed the database with initial data.
+
+6. Finally, start the application by running: npm run start
+
+The application will be available at http://localhost:3000/.
+
+That's it! You should now be able to run the application locally.
+
 ### Screenshots
 #### Home Page
 ![Screenshot 2022-11-17 at 5 03 52 pm](https://user-images.githubusercontent.com/90598699/202408314-80968c92-25d5-48b2-b123-627627f5f5b9.png)
