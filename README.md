@@ -1,6 +1,6 @@
 # Cocktails & Dreams
 
-Cocktails & Dreams is a cocktail recipe finder app built using key technologies such as React SSR, JS (ES6), HTML5, CSS, Bootstrap 5, AJAX, API, Sequelize, PostgreSQL, Express-sessions, ExpressJS, and responsive design.
+Cocktails & Dreams is a sophisticated and user-friendly cocktail recipe finder app, designed with the latest web development technologies. It utilizes React SSR, JS (ES6), HTML5, CSS, Bootstrap 5, AJAX, API, Sequelize, PostgreSQL, Express-sessions, ExpressJS, and responsive design to deliver a seamless and engaging user experience.
 
 ## Features
 - User registration and login system
