@@ -1,4 +1,4 @@
-# Cocktails-dreams
+# Cocktails&Dreams
 
 Cocktail recipes finder app
 Key technologies of the project: React SSR, JS(ES6), HTML5, CSS, bootstrap5, AJAX, API, sequelize, postgreSQL, express-sessions, expressJS, responsive design
